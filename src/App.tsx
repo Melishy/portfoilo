@@ -24,7 +24,7 @@ function App() {
         setIsLoading(true);
         const userData = await fetchUserData();
         const reposData = await fetchSpecificRepos([
-          "mreilcikshyroll",
+          "Socialfy",
           "socomitted",
         ]);
         setUser(userData);
